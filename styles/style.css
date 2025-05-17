@@ -293,6 +293,12 @@ a.card-link {
   text-decoration-skip-ink: none;
   margin-bottom: 99px;
 }
+ 
+.about__content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
 
 .about__text {
   padding-right: 4px;
@@ -304,10 +310,6 @@ a.card-link {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
- 
-.first-paragraph {
-    padding-bottom: 25px;
-  }
 
 .footer {
   padding: 181px 50px 82px 50px;
